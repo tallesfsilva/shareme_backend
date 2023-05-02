@@ -1,0 +1,29 @@
+POST http://localhost:3001/user/login
+Content-Type: application/json
+
+  {
+  "name": "Usuario Teste2229i19922222",
+   "email": "teste@gmail.com",
+   "idGoogle" : "104797155953251329394"
+}
+
+
+
+####
+
+POST http://localhost:3001/pin/create
+Content-Type: application/json
+
+ {
+  "title": "Teste Rest",
+  "about": "teste",
+  "destination": "teste",
+  "category": "dogs",
+  "image" : "testess",
+  "user": "104797155953251329394",
+  "postedBy": "",
+  "save": "",
+  "comments": ""
+}
+
+
